@@ -2,7 +2,7 @@
 
 # History Project
 
-This is a History project developed with HTML, css and Javascript. The content are divided into seperate sections. excluding the first one, all other sections uses same css section classes which are repeatedly used.
+This is a History project developed with HTML, css and Javascript. The content are divided into seperate sections. excluding the first one, all other sections uses same css section classes which are repeatedly used. I have always been interested to read and learn about history that how people used to work and communicate where there was not advanced technology and equipments available. I choose this project to lighten and appreciate the efforts of camelee's in progrss of Australia by transportation when there were none means of transport available. Leaving their families back thousands of kilometers away and working in long deserts and without proper means of communication for almost a century. The commitment to the progress the country while being treated as lower class human is challenging for any race to work but they did not let that to stop their commitment to the country called Commonwealth of Australia.
 
 # What went well?
 
