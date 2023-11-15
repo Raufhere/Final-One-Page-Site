@@ -1,0 +1,186 @@
+.body{
+  margin:0px;
+}
+
+/* Adding font styles */
+@font-face {
+    font-family: "MulishLight";
+    src: url("./fonts/Mulish/Mulish-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: "MulishMedium";
+    src: url("./fonts/Mulish/Mulish-Medium.ttf");
+  }
+  
+  /* Navbar */
+  
+  .nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #075985;
+    padding: 7px;
+    width: 100%;
+    color: white;
+  }
+  .logo {
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+  }
+  
+  .navText {
+    font-family: "MulishMedium", sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 22px;
+    margin-left: 15px;
+    font-weight: 900;
+  }
+  
+  /* Section main styles that will be used for some */
+  .mainSection {
+    padding-top: 120px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "MulishMedium", sans-serif;
+  }
+  .mainSectionHeading {
+    color: #334155;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  .mainSectionContainer {
+    display: flex;
+  }
+  .mainImageReference {
+    font-family: "MulishLight", sans-serif;
+    width: 100%;
+  }
+  
+  .mainImageSection {
+    width: 150%;
+  }
+  .mainImage {
+    width: 95%;
+  }
+  .mainText {
+    line-height: 25px;
+    font-size: 18px;
+    width: 90%;
+  }
+  .dividedSectionContent{
+      width: 60%;
+  }
+  
+  /* Section styles that will be reused */
+  
+  .sectionBody {
+    font-family: "MulishMedium", sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .paraText {
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+  }
+  
+  .headingText {
+    font-family: "MulishMedium", sans-serif;
+    color: #334155;
+    text-align: center;
+    font-size: 40px;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 50px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  .image {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .imgReference {
+    font-family: "MullishLight",sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 10px;
+  }
+  .dividedSecImgRef{
+      font-family: "MullishLight",sans-serif;
+      width: 70%;
+      margin: 0 auto;
+      padding-top: 10px;
+  }
+  
+  /* scroll transition effects */
+  
+  .fade {
+    transform: translateX(-150px);
+    position: relative;
+    transition: 1s all ease;
+    opacity: 0;
+  }
+  
+  .fade.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Slider */
+  
+ 
+  .timelineContainer {
+    padding-bottom: 80px;
+  }
+  .sliderBackgroundImage {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+  }
+  .timelineList{
+    font-size: 18px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    padding-bottom: 8px;
+    letter-spacing: 0.5px;
+
+  }
+  
+  .sliderElement {
+    z-index: 40;
+  }
+  
+  .section4Content{
+      width: 90%;
+  }
+  .section4Image{
+      width: 100%;
+  }
+  .sec4ImgRef{
+      font-family: "MulishLight",sans-serif;
+      padding-top: 10px;
+  
+  }
+  
+  .link {
+    color: blueviolet;
+  }
+  
+  /* Excluding default styles of anchor tag */
+  a {
+      text-decoration: none;
+      color: inherit;
+    }
